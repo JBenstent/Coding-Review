@@ -1,0 +1,26 @@
+#tablecontent {
+  display: none;
+}
+
+#tabledesign {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabledesign th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+#tabledesign tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#tabledesign th {
+  background-color: #FF0000;
+  color: white;
+}
+
+.active {
+	font-weight: 600;
+}
